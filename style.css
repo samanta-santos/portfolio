@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111a20;
+}
+
+/*CONTAINER 01*/
+
+.container01 {
+  background-color: #ffa97a;
+  width: 50%;
+  margin: auto;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.apresentacao {
+  display: flex;
+  padding-top: 20px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+.avatar {
+  margin: auto;
+}
+
+.avatar_img {
+  width: 250px;
+  height: 250px;
+}
+
+
+/*CONTAINER 02*/
+
+.container02 {
+  background-color: #ffe5cc;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.container02 header h2 {
+  padding-bottom: 20px;
+}
+
+.grupo_trabalhos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.trabalhos {
+  background-color: #fff8f2;
+  width: 82%;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.trabalho01 p {
+  text-align: justify;
+}
+
+.trabalho_descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.trabalho_img {
+  width: 200px;
+  height: 200px;
+}
+
+/*CONTAINER 03*/
+
+.container03 {
+  background-color: #ffa97a;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.habilidades img {
+  width: 50px;
+}
