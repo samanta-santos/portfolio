@@ -18,34 +18,28 @@ body {
 .menu ul {
   display: flex;
   list-style-type: none;
-  gap: 15px;
-  padding-top: 30px;
+  gap: 2vw;
+  padding-top: 3vh;
+  padding-left: 3vw;
+  flex-wrap: wrap;
 }
 
 .apresentacao {
   display: flex;
   padding-top: 20px;
-}
-
-.texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .botoes {
-  margin-top: 20px;
-}
-
-.avatar {
-  margin: auto;
+  display: flex;
+  gap: 1vw;
+  margin-top: 2vh;
 }
 
 .avatar_img {
-  width: 250px;
-  height: 250px;
+  width: 16vw;
 }
-
 
 /*CONTAINER 02*/
 
