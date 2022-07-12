@@ -1,0 +1,12 @@
+body {
+  background-color: #111a20;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 32vw;
+}

@@ -1,0 +1,12 @@
+body {
+  background-color: #111a20;
+}
+
+.emotes {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 32vw;
+}

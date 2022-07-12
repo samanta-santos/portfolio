@@ -87,6 +87,7 @@ nav a:hover {
   background-color: #ffe5cc;
   width: 50vw;
   margin: auto;
+  padding-bottom: 15px;
 }
 
 .container02 header h2 {
@@ -132,11 +133,32 @@ nav a:hover {
 /*CONTAINER 03*/
 
 .container03 {
-  background-color: #ffa97a;
+  background-color: #ffeed9;
   width: 50vw;
   margin: auto;
 }
-
+.container03 h2 {
+  text-align: center;
+  padding: 30px 0px 20px 71px;
+}
+.habilidades {
+  padding: 30px 0px 20px 71px;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
 .habilidades img {
   width: 50px;
+}
+
+/*CONTAINER 04*/
+
+.container04 {
+  background-color: #ffe5cc;
+  width: 50vw;
+  margin: auto;
+}
+.container04 h2 {
+  text-align: center;
+  padding: 30px 0px 20px 71px;
 }
