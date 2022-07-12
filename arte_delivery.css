@@ -1,0 +1,12 @@
+body {
+  background-color: #545454;
+}
+
+.delivery_imagens {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 30vw;
+}

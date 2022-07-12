@@ -7,22 +7,26 @@
     <title>Portfólio</title>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <section class="container01">
-      <nav class="menu">
-        <ul>
-          <li>Sobre mim</li>
-          <li>Portfólio</li>
-          <li>Habilidades</li>
-          <li>Contato</li>
-        </ul>
+    <section id="primeiraSection">
+      <nav>
+        <a href="">Sobre mim</a>
+        <a href="">Trabalhos</a>
+        <a href="">Habilidades</a>
+        <a href="">Contato</a>
       </nav>
 
-      <div class="apresentacao">
-        <div class="texto">
-          <p>Olá</p>
+      <section id="sectionTextoeImag">
+        <div class="introducao">
+          <p>👋 Olá</p>
           <h1>
             Me chamo Samanta,<br />
             sou Designer e Dev Front-End
@@ -33,15 +37,13 @@
             <button class="botao_contato">Contato</button>
           </div>
         </div>
-        
-        <div>
-          <img
-            class="avatar_img"
-            src="./images/ola.png"
-            alt="desenho de Samanta"
-          />
-        </div>
-      </div>
+
+        <img
+          class="avatar_img"
+          src="./images/ola.png"
+          alt="Emote Samanta acenando"
+        />
+      </section>
     </section>
 
     <section class="container02">
@@ -51,8 +53,10 @@
       <div class="grupo_trabalhos">
         <div class="trabalhos">
           <div class="trabalho_descricao">
-            <h4>Página de Cadastro</h4>
-            <a href="">Visualizar</a>
+            <h3>Página de Cadastro</h3>
+            <a href="https://samanta-santos.github.io/pagina-de-cadastro/"
+              >Visualizar</a
+            >
           </div>
 
           <div>
@@ -66,7 +70,7 @@
 
         <div class="trabalhos">
           <div class="trabalho_descricao">
-            <h4>Badges para Twitch</h4>
+            <h3>Badges para Twitch</h3>
             <a href="">Visualizar</a>
           </div>
 
@@ -81,7 +85,7 @@
 
         <div class="trabalhos">
           <div class="trabalho_descricao">
-            <h4>Emotes</h4>
+            <h3>Emotes</h3>
             <a href="">Visualizar</a>
           </div>
 
@@ -96,16 +100,16 @@
 
         <div class="trabalhos">
           <div class="trabalho_descricao">
-            <h4>Arte para Delivery</h4>
-            <a href="">Visualizar</a>
-          </div>
+            <h3>Arte para Delivery</h3>
+            <a href="./arte_delivery.html">Visualizar</a>
 
-          <div>
-            <img
-              class="trabalho_img"
-              src="./images/logo.png"
-              alt="logo cafofo doce"
-            />
+            <div>
+              <img
+                class="trabalho_img"
+                src="./images/logo.png"
+                alt="logo cafofo doce"
+              />
+            </div>
           </div>
         </div>
       </div>
