@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eczar", serif;
+  font-family: "Eczar", sans-serif;
   color: #403930;
   letter-spacing: 1px;
 }
@@ -13,7 +13,7 @@ body {
 
 /*CONTAINER 01*/
 
-#primeiraSection {
+#container01 {
   background-color: #ffeed9;
   width: 50vw;
   margin: auto;
@@ -32,10 +32,11 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: 2px solid #ffa97a;
+  color: rgb(244, 99, 21);
+  font-weight: bold;
 }
 
-#sectionTextoeImag {
+#sobre_mim {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -44,7 +45,7 @@ nav a:hover {
 .introducao p {
   font-size: 13pt;
   background-color: #ffddbf;
-  width: 4vw;
+  width: 5vw;
   border-radius: 10px;
 }
 
@@ -55,42 +56,51 @@ nav a:hover {
 .botoes {
   display: flex;
   gap: 1vw;
-  margin-top: 2vh;
+  margin-top: 3vh;
 }
 
-.botao_trabalhos,
-.botao_contato {
-  padding: 8px;
+.botao_trabalhos {
+  padding: 3px 10px 3px 10px;
   border-radius: 10px;
-  border: #545454;
+  cursor: pointer;
+  font-size: 12pt;
+  color: #f3f2ff;
+  background-color: #545454;
+  border: none;
+}
+
+.botao_trabalhos:hover {
+  background-color: #00000000;
+  color: rgb(244, 99, 21);
+  font-weight: bold;
+}
+
+.botao_contato {
+  border: none;
+  padding: 3px 10px 3px 10px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 12pt;
   color: #f3f2ff;
   background-color: #545454;
 }
 
-.botao_trabalhos:hover {
-  border: 1px solid #ffa97a;
-  background-color: #00000000;
-  color: #545454;
-}
-
 .botao_contato:hover {
-  border: 1px solid #ffa97a;
   background-color: #00000000;
-  color: #545454;
+  color: rgb(244, 99, 21);
+  font-weight: bold;
 }
 
 /*CONTAINER 02*/
 
-.container02 {
+#container02 {
   background-color: #ffe5cc;
   width: 50vw;
   margin: auto;
   padding-bottom: 15px;
 }
 
-.container02 header h2 {
+#container02 header h2 {
   padding: 30px 0px 20px 71px;
 }
 
@@ -111,54 +121,77 @@ nav a:hover {
   justify-content: space-around;
 }
 
-.trabalho01 p {
-  text-align: justify;
-}
-
 .trabalho_descricao {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 12vw;
+  width: 13vw;
+}
+
+.trabalho_descricao a {
+  text-decoration: none;
+  background-color: #ffe5cc;
+  border-radius: 10px;
+  width: 5vw;
+  text-align: center;
+  font-size: 9pt;
+  font-weight: bold;
+  color: coral;
+  padding: 5px;
+}
+
+.trabalho_descricao a:hover {
+  background-color: #00000000;
 }
 
 .trabalho_img {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 20px;
   background-color: #111a20;
-  padding: 15px;
+  padding: 20px;
 }
 
-/*CONTAINER 03*/
+/*CONTAINER 03 e 04*/
 
-.container03 {
+#container03 {
   background-color: #ffeed9;
   width: 50vw;
+  height: 40vh;
   margin: auto;
 }
-.container03 h2 {
+
+#container03,
+#container04 h2 {
   text-align: center;
-  padding: 30px 0px 20px 71px;
+  padding: 50px 0px 20px 0px;
 }
+
 .habilidades {
-  padding: 30px 0px 20px 71px;
   display: flex;
   justify-content: center;
-  gap: 5vw;
+  gap: 3vw;
 }
+
 .habilidades img {
   width: 50px;
+  margin-top: 50px;
 }
 
-/*CONTAINER 04*/
-
-.container04 {
+#container04 {
   background-color: #ffe5cc;
   width: 50vw;
+  height: 40vh;
   margin: auto;
 }
-.container04 h2 {
-  text-align: center;
-  padding: 30px 0px 20px 71px;
+
+.contato {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.contato img {
+  width: 50px;
+  margin-top: 30px;
 }

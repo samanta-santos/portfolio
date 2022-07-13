@@ -2,7 +2,7 @@ body {
   background-color: #111a20;
 }
 
-.delivery_imagens {
+.panfletos {
   display: flex;
   justify-content: space-around;
 }

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio</title>
+    <title>Samanta Santos</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,31 +16,34 @@
   </head>
 
   <body>
-    <section id="primeiraSection">
+    <section id="container01">
       <nav>
-        <a href="#primeiraSection">Sobre mim</a>
         <a href="#container02">Portfólio</a>
         <a href="#container03">Habilidades</a>
         <a href="#container04">Contato</a>
       </nav>
 
-      <section id="sectionTextoeImag">
+      <section id="sobre_mim">
         <div class="introducao">
-          <p>👋 Olá</p>
+          <p>👋 Olá!</p>
           <h1>
             Me chamo Samanta,<br />
             sou Designer e Dev Front-End
           </h1>
 
           <div class="botoes">
-            <button class="botao_trabalhos" onclick="download('./download/curriculo.pdf', 'Currículo Samanta')">Baixar Currículo</button>
-            <a href="#container04"><button class="botao_contato">Contato</button></a>
+            <button
+              class="botao_trabalhos"
+              onclick="download('./download/curriculo.pdf', 'Currículo Samanta')"
+            >
+              Baixar Currículo
+            </button>
           </div>
         </div>
 
         <img
           class="avatar_img"
-          src="./images/ola.png"
+          src="/images/ola.png"
           alt="Emote Samanta acenando"
         />
       </section>
@@ -62,7 +65,7 @@
           <div>
             <img
               class="trabalho_img"
-              src="./images/cadastro.png"
+              src="/images/cadastro.png"
               alt="pagina de cadastro"
             />
           </div>
@@ -71,13 +74,13 @@
         <div class="trabalhos">
           <div class="trabalho_descricao">
             <h3>Badges para Twitch</h3>
-            <a href="./badges.html">Visualizar</a>
+            <a href="/html/badges.html">Visualizar</a>
           </div>
 
           <div>
             <img
               class="trabalho_img"
-              src="./images/badges.png"
+              src="/images/badges.png"
               alt="badges para twitch"
             />
           </div>
@@ -86,28 +89,28 @@
         <div class="trabalhos">
           <div class="trabalho_descricao">
             <h3>Emotes</h3>
-            <a href="./emotes.html">Visualizar</a>
+            <a href="/html/emotes.html">Visualizar</a>
           </div>
 
           <div>
             <img
               class="trabalho_img"
-              src="./images/emotes.png"
+              src="/images/emotes.png"
               alt="emotes dango"
             />
           </div>
         </div>
 
-         <div class="trabalhos">
+        <div class="trabalhos">
           <div class="trabalho_descricao">
             <h3>Arte para Delivery</h3>
-            <a href="./arte_delivery.html">Visualizar</a>
+            <a href="/html/panfletos.html">Visualizar</a>
           </div>
 
           <div>
             <img
               class="trabalho_img"
-              src="./images/logo.png"
+              src="/images/logo.png"
               alt="emotes dango"
             />
           </div>
@@ -120,26 +123,32 @@
         <h2>Habilidades</h2>
       </header>
       <div class="habilidades">
-        <img src="./images/photoshop.svg" alt="Photoshop" />
-        <img src="./images/css.svg" alt="CSS" />
-        <img src="./images/html.svg" alt="HTML" />
-        <img src="./images/js.svg" alt="Javascript" />
+        <img src="/images/photoshop.svg" alt="Photoshop" />
+        <img src="/images/css.svg" alt="CSS" />
+        <img src="/images/html.svg" alt="HTML" />
+        <img src="/images/js.svg" alt="Javascript" />
       </div>
     </section>
 
-<section id="container04" class="container04">
+    <section id="container04" class="container04">
       <header>
         <h2>Contato</h2>
       </header>
-      <div class="habilidades">
+      <div class="contato">
         <a href="https://github.com/Samanta-Santos"
-          ><img src="./images/GitHub.png" alt="" />
+          ><img src="/images/github.svg" alt="" />
         </a>
 
-       <a href="https://www.linkedin.com/in/samantadossantos/"><img src="./images/linkedin.svg" alt=""></a>
+        <a href="https://www.linkedin.com/in/samantadossantos/"
+          ><img src="/images/linkedin.svg" alt="LinkedIn"
+        /></a>
+
+        <a href="mailto: samantadossantos@outlook.com.br"
+          ><img src="/images/outlook.svg" alt="Outlook"
+        /></a>
       </div>
     </section>
   </body>
 
-  <script src="./script.js"></script>
+  <script src="/js/script.js"></script>
 </html>
